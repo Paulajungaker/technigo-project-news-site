@@ -2,22 +2,111 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!-- Change the title below -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News Site</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- dont forget the meta tag for responsiveness -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <!-- Some kind of logo and navbar -->
+      <h1>Forrest news</h1>
     </header>
 
-    <section class="big-news">
-      <!-- The big news content -->
+    <section class="images-container">
+      <div class="image-wrapper forrest-img-1">
+        <img src="assets/forrest-image-1.png" alt="forrest image 1" />
+      </div>
+      <div class="image-wrapper forrest-img-2">
+        <img src="assets/forrest-image-2.png" alt="forrest image 2" />
+      </div>
+      <div class="image-wrapper forrest-img-3">
+        <img src="assets/forrest-image-3.png" alt="forrest image 3" />
+      </div>
+      <div class="image-wrapper forrest-img-4">
+        <img src="assets/forrest-image-4.png" alt="forrest image 4" />
+      </div>
+      <div class="image-wrapper forrest-img-5">
+        <img src="assets/forrest-image-5.png" alt="forrest image 5" />
+      </div>
+      <div class="image-wrapper forrest-img-6">
+        <img src="assets/forrest-image-6.png" alt="forrest image 6" />
+      </div>
     </section>
 
-    <section class="">
-      <!-- The other news  -->
+    <section class="forrest-cards">
+      <div class="card">
+        <img src="assets/card-image-1.png" alt="forrest" class="card-img" />
+        <div class="top-text-wrapper">
+          <img
+            src="assets/profile-img-1.png"
+            alt="profile image"
+            class="profile-img"
+          />
+          <p class="card-writer">Dr. Isolde Kline</p>
+          <p class="card-dot">·</p>
+          <p class="card-time">2 hours ago</p>
+        </div>
+
+        <h3 class="card-title">The Enchanting Forests of the Amazon</h3>
+        <p class="card-text">
+          Discover the diverse wildlife and lush greenery of the Amazon
+          rainforest.
+        </p>
+
+        <div class="card-bottom-wrapper">
+          <div class="icon-wrapper">
+            <img src="assets/Chat.svg" alt="comments" class="chat-icon" />
+            <p class="card-comments">12</p>
+          </div>
+          <div class="icon-wrapper">
+            <img src="assets/trailingIcon.svg" alt="save" class="save-icon" />
+            <img
+              src="assets/dotsIcon.svg"
+              alt="more options"
+              class="dots-icon"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/card-image-2.png" alt="forrest" class="card-img" />
+        <div class="top-text-wrapper">
+          <img
+            src="assets/profile-image-2.png"
+            alt="profile image"
+            class="profile-img"
+          />
+          <p class="card-writer">Lysandra Voss</p>
+          <p class="card-dot">·</p>
+          <p class="card-time">5 hours ago</p>
+        </div>
+
+        <h3 class="card-title">Preserving the Redwood Forests</h3>
+        <p class="card-text">
+          Efforts to protect the ancient redwoods continue.
+        </p>
+
+        <div class="card-bottom-wrapper">
+          <div class="icon-wrapper">
+            <img src="assets/Chat.svg" alt="comments" class="chat-icon" />
+            <p class="card-comments">8</p>
+          </div>
+          <div class="icon-wrapper">
+            <img src="assets/trailingIcon.svg" alt="save" class="save-icon" />
+            <img
+              src="assets/dotsIcon.svg"
+              alt="more options"
+              class="dots-icon"
+            />
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>

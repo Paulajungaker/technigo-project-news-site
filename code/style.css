@@ -1,4 +1,168 @@
-html {
-  background: #0025ff;
-  color: #fff;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Outfit, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Domine, serif;
+}
+
+header {
+  height: 57px;
+  padding: 24px 16px 0px 16px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.images-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 16px;
+  max-width: 100vw;
+  box-sizing: border-box;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 176px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.forrest-img-1 {
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+.forrest-img-2 {
+  width: 40%;
+  padding-right: 4px;
+}
+
+.forrest-img-3 {
+  width: 60%;
+  padding-bottom: 4px;
+}
+
+.forrest-img-5 {
+  width: 60%;
+  padding: 4px 4px 0 0;
+}
+
+.forrest-img-6 {
+  width: 40%;
+  padding-top: 4px;
+}
+
+/*** Card section **/
+
+.forrest-cards {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.card {
+  width: 300px;
+  margin: 20px 8px;
+  padding: 12px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  border: 1px solid rgba(73, 110, 73, 0.2);
+  border-radius: 4px;
+  background: #fdfefd;
+}
+
+.top-text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 20px;
+  margin: 16px 0 8px 0;
+}
+
+.profile-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 360px;
+  object-fit: cover;
+}
+
+.card-writer .card-time {
+  color: rgba(20, 46, 20, 0.62);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 135%;
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: normal;
+  overflow: hidden;
+  color: #1b281b;
+  text-overflow: ellipsis;
+  letter-spacing: -0.34px;
+}
+
+.card-text {
+  overflow: hidden;
+  color: rgba(20, 46, 20, 0.62);
+  text-overflow: ellipsis;
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.card-bottom-wrapper {
+  height: 24px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chat-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.card-comments {
+  color: #1b281b;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 135%;
+}
+
+.save-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.dots-icon {
+  width: 24px;
+  height: 24px;
 }
